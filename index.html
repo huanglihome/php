@@ -1,0 +1,80 @@
+<html>
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>NSW2015报名表</title>
+    <style>
+        #form{
+            width: 100%;
+            height: 100%;
+            font-size: 20px;
+            margin: 0 auto;
+        }
+    </style>
+    </script>
+        <script langage="Javascript">
+        function isOK(){
+        return confirm("是否提交？");
+        }
+        </script>
+    </head>
+    <body>
+        <div id="form">
+        <form action="index.php" method="post">
+        姓名:    
+        <input type="text" id="name" name="name" value="" maxlength="4">
+        <p>学号:
+        <input type="text" id="number"  name="number" placeholder="字母请大写" maxlength="11" >
+        <p>班级:
+        <input type="text" id="class" name="class" placeholder="例如:15GB软件1">
+        <p>电话:
+        <input type="text" id="tel" name="tel" maxlength="11">
+        <p>Q&nbsp;&nbsp;Q:
+        <input type="text" id="qq" name="qq" maxlength="10">
+        <p>宿舍:
+        <select name="dormitoty" style="font-size:20px;">
+            <option value="中区校1">中区校1</option>
+            <option value="中区校2">中区校2</option>
+            <option value="中区校3">中区校3</option>
+            <option value="中区校4">中区校4</option>
+            <option value="中区校5">中区校5</option>
+            <option value="中区校6">中区校6</option>
+            <option value="中区校7">中区校7</option>
+            <option value="中区校8">中区校8</option>
+            <option value="中区校9">中区校9</option>
+            <option value="中区校10">中区校10</option>
+            <option value="中区校11">中区校11</option>
+            <option value="中区校12">中区校12</option>
+            <option value="中区校13">中区校13</option>
+            <option value="中区校14">中区校14</option>
+            <option value="西区创1">西区创1</option>
+            <option value="西区创2">西区创2</option>
+            <option value="西区创3">西区创3</option>
+            <option value="西区创4">西区创4</option>
+            <option value="西区创10">西区创10</option>
+            <option value="西区创11">西区创11</option>
+            <option value="西区创12">西区创12</option>
+            <option value="西区创16">西区创16</option>
+            <option value="西区创17">西区创17</option>
+            <option value="西区创18">西区创18</option>
+            <option value="西区校19">西区校19</option>
+            <option value="北区校15">北区校15</option>
+            <option value="北区校20">北区校20</option>
+            <option value="北区校21">北区校21</option>
+            <option value="北区校22">北区校22</option>
+            <option value="北区校15">北区校15</option>
+            <option value="东区草1">东区草1</option>
+            <option value="东区草2">东区草2</option>
+            <option value="东区草3">东区草3</option>
+            <option value="东区草4">东区草4</option>
+            <option value="东区草5">东区草5</option>
+            <option value="东区草6">东区草6</option>
+            <option value="东区草7">东区草7</option>
+            <option value="东区草8">东区草8</option>
+            </select>
+            <p>
+            <input type="submit" value="提交"  style="width:100px; height:50px; font-size:20px;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset"  value="重填" style="width:100px; height:50px; font-size:20px;">
+        </form>
+            </div>
+    </body>
+</html>
